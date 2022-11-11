@@ -19,8 +19,8 @@
     <code><img width="35px" src="./assets/distributed-version-control/git-icon.webp"></code>
     <code>
         <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="./assets/tools/github-dark-icon.webp">
-            <img width="35px" src="./assets/tools/github-white-icon.webp">
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/tools/github-white-icon.webp">
+            <img width="35px" src="./assets/tools/github-dark-icon.webp">
         </picture>
     </code>
     <code><img width="35px" src="./assets/package-manager/npm-icon.webp"></code>
@@ -29,8 +29,8 @@
     <code><img width="35px" src="./assets/tools/eslint-icon.webp"></code>
     <code>
         <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="./assets/tools/stylelint-dark-icon.webp">
-            <img width="35px" src="./assets/tools/stylelint-white-icon.svg">
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/tools/stylelint-white-icon.svg">
+            <img width="35px" src="./assets/tools/stylelint-dark-icon.webp">
         </picture>
     </code>
     <code><img width="35px" src="./assets/tools/editorconfig-icon.webp"></code>
