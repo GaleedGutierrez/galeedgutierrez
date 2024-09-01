@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 MD033 MD045 -->
+
 <h1 align="center"> Hi, I am Galeed Gutierrez 👋 </h1>
 
 <!-- I am frontend developer student, -->
