@@ -5,7 +5,11 @@
 	"main": "./dist/index.js",
 	"scripts": {
 		"prettier": "prettier . --check",
-		"prettier:fix": "prettier . --write"
+		"prettier:fix": "prettier . --write",
+		"lint-md": "markdownlint-cli2 **/*.md !node_modules",
+		"lint-md:fix": "markdownlint-cli2 --fix **/*.md !node_modules",
+		"check-for-dupes": "npx jscpd ./",
+		"prepare": "husky"
 	},
 	"type": "module",
 	"repository": {
@@ -19,16 +23,36 @@
 	},
 	"homepage": "https://github.com/GaleedGutierrez/galeedgutierrez#readme",
 	"devDependencies": {
+		"@commitlint/cli": "^19.4.1",
+		"@commitlint/config-conventional": "^19.4.1",
 		"@types/node": "^18.11.9",
 		"@typescript-eslint/eslint-plugin": "^5.42.1",
 		"@typescript-eslint/parser": "^5.42.1",
 		"eslint": "^8.27.0",
+		"husky": "^9.1.5",
+		"jscpd": "^4.0.5",
+		"markdownlint-cli2": "^0.13.0",
 		"prettier": "3.3.3",
 		"ts-node": "^10.9.1",
-		"typescript": "^4.8.4"
+		"typescript": "^4.9.5"
 	},
 	"prettier": {
 		"endOfLine": "auto",
 		"singleAttributePerLine": true
+	},
+	"lint-staged": {
+		"*.md": "npm run lint-md:fix",
+		"*": "npm run prettier:fix"
+	},
+	"jscpd": {
+		"threshold": 1,
+		"reporters": [
+			"consoleFull"
+		],
+		"ignore": [
+			"**/__snapshots__/**",
+			"**/node_modules/**"
+		],
+		"absolute": true
 	}
 }
