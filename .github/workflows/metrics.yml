@@ -74,10 +74,3 @@ jobs:
           plugin_projects_limit: 4
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
-          plugin_screenshot_title: Screenshot
-          plugin_screenshot_url: https://galeedgutierrez.com/
-          plugin_screenshot_viewport: { "width": 1280, "height": 1280 }
