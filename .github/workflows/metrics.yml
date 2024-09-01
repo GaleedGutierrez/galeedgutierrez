@@ -69,9 +69,12 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
           plugin_pagespeed_url: https://galeedgutierrez.com/
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_projects: yes
           plugin_projects_limit: 4
           plugin_topics: yes
+          plugin_topics_limit: 20
           plugin_topics_mode: icons
           plugin_topics_sort: activity
