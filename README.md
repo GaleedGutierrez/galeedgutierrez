@@ -6,7 +6,7 @@
 
 <div align="center">
     <code><img width="35px" src="./assets/languages/ts-icon.webp"></code>
-    <code><img width="35px" src="./assets/languages/javascript-icon.webp"></code>
+    <code><img width="35px" src="./assets/languages/JavaScript-icon.webp"></code>
     <code><img width="35px" src="./assets/languages/pugjs-icon.webp"></code>
     <code><img width="35px" src="./assets/languages/html-icon.webp"></code>
     <code><img width="35px" src="./assets/languages/sass-icon.webp"></code>
