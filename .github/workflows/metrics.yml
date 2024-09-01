@@ -72,3 +72,6 @@ jobs:
           plugin_pagespeed_url: https://galeedgutierrez.com/
           plugin_projects: yes
           plugin_projects_limit: 4
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: activity
