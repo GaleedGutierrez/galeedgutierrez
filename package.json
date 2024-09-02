@@ -41,7 +41,7 @@
 		"singleAttributePerLine": true
 	},
 	"lint-staged": {
-		"*.md": "npm run lint-md:fix",
+		"*.md": "npm run lint-md",
 		"*": "npm run prettier:fix"
 	},
 	"jscpd": {
