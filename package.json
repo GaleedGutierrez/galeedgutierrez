@@ -6,8 +6,8 @@
 	"scripts": {
 		"prettier": "prettier . --check",
 		"prettier:fix": "prettier . --write",
-		"lint-md": "markdownlint-cli2 --config ./.markdownlint.json **/*.md !node_modules",
-		"lint-md:fix": "markdownlint-cli2 --config ./.markdownlint.json --fix **/*.md !node_modules",
+		"lint-md": "markdownlint-cli2 --config .markdownlint.json **/*.md !node_modules",
+		"lint-md:fix": "markdownlint-cli2 --config .markdownlint.json --fix **/*.md !node_modules",
 		"check-for-dupes": "npx jscpd ./",
 		"prepare": "husky"
 	},
