@@ -55,7 +55,7 @@ like to follow:
 [Github's guidance on linking issues to pull requests](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue). <!-- markdownlint-disable-line MD013 -->
 
 For example having the text: "closes #1234" would connect the current pull
-request to issue 1234. And when we merge the pull request, Github will
+request to issue 1234. And when we merge the pull request, GitHub will
 automatically close the issue.
 
 - Related Issue #
@@ -97,6 +97,6 @@ Accessibility Docs](https://developers.forem.com/frontend/accessibility)._
 
 ## (optional) Are there any post deployment tasks we need to perform?
 
-## (optional) What gif best describes this PR or how it makes you feel?
+## (optional) What GIF best describes this PR or how it makes you feel?
 
 ![alt_text](gif_link)
