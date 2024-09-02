@@ -85,7 +85,7 @@ Accessibility Docs](https://developers.forem.com/frontend/accessibility)._
 
 - [ ] 👍 Yes.
 - [ ] 🙅‍♂️ No, and this is why: _please replace this line with details on why
-      tests have not been included_.
+      tests have not been included_. <!-- markdownlint-disable-line MD010 -->
 - [ ] 🙋 No, I need help with writing test.
 
 ## Added to documentation?
