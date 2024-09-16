@@ -34,7 +34,7 @@
 		"markdownlint-cli2": "^0.13.0",
 		"prettier": "3.3.3",
 		"ts-node": "^10.9.1",
-		"typescript": "^4.9.5"
+		"typescript": "^5.6.2"
 	},
 	"lint-staged": {
 		"*.md": "npm run lint-md:fix",
